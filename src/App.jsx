@@ -1,4 +1,4 @@
-import { useState, useCallback, useEffect,useRef } from "react";
+import { useState, useCallback, useEffect, useRef } from "react";
 function App() {
   const [length, setLength] = useState(4);
   const [numberAllowed, setNumberAllowed] = useState(false);
@@ -47,7 +47,7 @@ function App() {
           <button
             className="outline-none bg-blue-500 text-white py-1 px-3 shrink-0 hover:bg-blue-600 hover:scale-105 transition-all duration-100"
             onClick={copyPasswordToClipboard}
-            >
+          >
             Copy
           </button>
         </div>
